@@ -1,6 +1,6 @@
 # LibraryDesk - Library Management System
 
-LibraryDesk is a **Library Management System** built using **Spring Boot, Java, Thymeleaf, and MySQL**. It provides an **Admin Login** to manage books, authors, categories, and publishers efficiently.
+LibraryDesk is a **Library Management System** built using **Spring Boot, Java, Thymeleaf, and H2**. It provides an **Admin Login** to manage books, authors, categories, and publishers efficiently.
 
 ## Features 🚀
 
