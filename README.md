@@ -9,8 +9,8 @@ LibraryDesk is a **Library Management System** built using **Spring Boot, Java, 
 ✅ **Manage Authors** 🖊️  
 ✅ **Manage Categories** 📂  
 ✅ **Manage Publishers** 🏢  
-✅ **Search Books by Title, Author, Genre** 🔍  
-✅ **Data Persistence with MySQL** 🗄️  
+✅ **Export CSV File**   
+✅ **H2 Database** 🗄️  
 ✅ **Spring Boot + Thymeleaf UI** 🎨  
 
 ---
