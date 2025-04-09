@@ -66,30 +66,4 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Excepti
 
     return http.build();
 }
-@Bean
-public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-    http
-        .authorizeHttpRequests(auth -> auth
-            .requestMatchers("/js/**", "/css/**", "/img/**").permitAll()
-            .requestMatchers("/h2-console/**").permitAll()  // Allow H2 console access
-            .anyRequest().authenticated()
-        )
-        .csrf(csrf -> csrf
-            .ignoringRequestMatchers("/h2-console/**") // Disable CSRF protection for H2 console
-        )
-        .headers(headers -> headers
-            .frameOptions(frameOptions -> frameOptions.disable()) // Allow frames for H2 console
-        )
-        .formLogin(form -> form
-            .loginPage("/login").permitAll()
-        )
-        .logout(logout -> logout
-            .invalidateHttpSession(true)
-            .clearAuthentication(true)
-            .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-            .logoutSuccessUrl("/login?logout").permitAll()
-        );
-
-    return http.build();
-}
 }
