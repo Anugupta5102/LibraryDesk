@@ -25,52 +25,6 @@ LibraryDesk is a **Library Management System** built using **Spring Boot, Java, 
 
 ---
 
-## 📂 Project Structure
-
-```
-Library-Management-System/
-├── src/main/java/com/example/demo/
-│   ├── controller/
-│   │   ├── AuthorController.java
-│   │   ├── BookController.java
-│   │   ├── CategoryController.java
-│   │   ├── PublisherController.java
-│   ├── entity/
-│   │   ├── Author.java
-│   │   ├── Book.java
-│   │   ├── Category.java
-│   │   ├── Publisher.java
-│   │   ├── User.java
-│   ├── repository/
-│   │   ├── AuthorRepository.java
-│   │   ├── BookRepository.java
-│   │   ├── CategoryRepository.java
-│   │   ├── PublisherRepository.java
-│   │   ├── UserRepository.java
-│   ├── service/
-│   │   ├── AuthorService.java
-│   │   ├── BookService.java
-│   │   ├── CategoryService.java
-│   │   ├── PublisherService.java
-│   │   ├── UserService.java
-│   ├── securityconfig/
-│   │   ├── SecurityConfiguration.java
-│   ├── Application.java
-├── src/main/resources/
-│   ├── templates/
-│   │   ├── list-books.html
-│   │   ├── add-book.html
-│   │   ├── update-book.html
-│   │   ├── list-authors.html
-│   │   ├── add-author.html
-│   │   ├── list-categories.html
-│   │   ├── list-publishers.html
-│   ├── application.properties
-└── pom.xml
-```
-
----
-
 ## 📊 Database Schema
 
 | Table Name       | Columns |
@@ -79,6 +33,25 @@ Library-Management-System/
 | `books`         | `book_id`, `title`, `genre`, `rating`, `available`, `author_id`, `category_id`, `publisher_id` |
 | `categories`    | `category_id`, `name`     |
 | `publishers`    | `publisher_id`, `name`    |
+
+---
+
+## 📸 Screenshots
+
+### 1. Login Page
+![Login Page](screenshots/screenshot1.png)
+
+### 2. Home Page
+![Home Page](screenshots/screenshot2.png)
+
+### 3. Add Authors
+![Add Authors](screenshots/screenshot3.png)
+
+### 4. Update publisher
+![Update publisher](screenshots/screenshot4.png)
+
+### 5. Table View
+![Table View](screenshots/screenshot5.png)
 
 ---
 
