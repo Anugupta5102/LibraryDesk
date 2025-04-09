@@ -39,19 +39,16 @@ LibraryDesk is a **Library Management System** built using **Spring Boot, Java, 
 ## 📸 Screenshots
 
 ### 1. Login Page
-![Login Page](screenshots/screenshot1.png)
+![Login Page](screenshots/Admin Login.png)
 
 ### 2. Home Page
-![Home Page](screenshots/screenshot2.png)
+![Home Page](screenshots/Manage Books.png)
 
-### 3. Add Authors
-![Add Authors](screenshots/screenshot3.png)
+### 3. Update Category 
+![Update categories](screenshots/Update categories.png)
 
-### 4. Update publisher
-![Update publisher](screenshots/screenshot4.png)
-
-### 5. Table View
-![Table View](screenshots/screenshot5.png)
+### 4. Manage Publisher
+![Manage publisher](screenshots/Manage publisher.png)
 
 ---
 
